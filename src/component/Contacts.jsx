@@ -17,7 +17,7 @@ function Contacts() {
         <div className="ct-linkedIn">
           <i className="bi bi-linkedin" style={{color:"white", marginRight:"5px", fontSize:"20px"}}></i>
           <a
-            href="www.linkedin.com/in/thiago-liboni"
+            href="https://linkedin.com/in/thiago-liboni"
             target="_blank"
             rel="noopener noreferrer"
           >
