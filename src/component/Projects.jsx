@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IBM } from "../common/text/projects";
+import { IBM, Modular } from "../common/text/projects";
 
 function Projects() {
   const projectsPages = [
@@ -12,6 +12,15 @@ function Projects() {
         link: "https://github.com/ThiagoLiboni/Portfolio/",
       },
     ],
+    [
+      {
+        id: 2,
+        name: "Site - Ex. Academico",
+        text: Modular,
+        title: "Modular",
+        link: "https://github.com/ThiagoLiboni/ModuLarWeb",
+      }
+    ]
   ];
   const [page, setPage] = useState(0);
   const currentProjects = projectsPages[page];
@@ -23,7 +32,7 @@ function Projects() {
         <div className="content-project d-flex ">
           <div
             className="project-header d-flex flex-column me-5"
-            style={{ minWidth: "20%", width: "20%" }}
+            style={{ minWidth: "25%", width: "25%" }}
           >
             <div className="box-icon-project d-flex justify-content-start pe-4 pb-2">
               <div className="project-name d-flex justify-content-end align-items-center">
@@ -32,7 +41,7 @@ function Projects() {
               </div>
             </div>
             <div
-              className="box-preview-mp4 w-100 mt-5"
+              className="box-preview-mp4 w-100 mt-5 mb-3"
               style={{ height: "180px" }}
             >
               <video width="100%" height="100%" controls>
