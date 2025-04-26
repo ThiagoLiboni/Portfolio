@@ -55,7 +55,8 @@ function Projects() {
           <div className="description-project pt-2">
             <div className="title-project mb-3">{project.title}</div>
             <div className="text" style={{ whiteSpace: "normal" }}>
-              {project.text}{project.http}
+              {project.text}<br />
+              <a href={project.http}></a>
             </div>
             <a
               href={project.link}
