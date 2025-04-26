@@ -8,7 +8,7 @@ import {
   PG,
   redis,
   TS,
-} from "../../public/common/text/skills";
+} from "../common/text/skills";
 
 const allSkills = [
   {
@@ -90,7 +90,7 @@ function Ability() {
             </div>
             <div className="img-icon">
               <img
-                src={`../public/common/logos/${skill.img}`}
+                src={`/logos/${skill.img}`}
                 alt={skill.name}
                 style={{ width: "45px", height: "45px", borderRadius: "50%" }}
               />

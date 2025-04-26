@@ -34,22 +34,22 @@ function handleShowAboutMe() {
         </div>
         <div className="list-skills d-flex w-100 justify-content-between mt-5">
           <div className="icon-skill d-flex rounded-circle overflow-hidden " style={{justifyContent:'flex-end'}}>
-            <img src="../dist/common/logos/javascript.png" />
+            <img src="/logos/javascript.png" />
           </div>
           <div className="icon-skill d-flex rounded-circle overflow-hidden">
-            <img src="../dist/common/logos/nodejs.png" style={{scale:'1.4'}} />
+            <img src="/logos/nodejs.png" style={{scale:'1.4'}} />
             </div>
           <div className="icon-skill d-flex rounded-circle overflow-hidden">
-          <img src="../dist/common/logos/typescript.png"/>
+          <img src="/logos/typescript.png"/>
           </div>
           <div className="icon-skill d-flex rounded-circle overflow-hidden">
-          <img src="../dist/common/logos/docker.png"/>
+          <img src="/logos/docker.png"/>
           </div>
           <div className="icon-skill d-flex rounded-circle overflow-hidden">
-          <img src="../dist/common/logos/redis.png"/>
+          <img src="/logos/redis.png"/>
           </div>
           <div className="icon-skill d-flex rounded-circle overflow-hidden">
-          <img src="../dist/common/logos/github.png"/>
+          <img src="/logos/github.png"/>
           </div>
         </div>
         <div className="w-100 d-flex justify-content-center mt-5">
@@ -62,7 +62,7 @@ function handleShowAboutMe() {
       >
         <img
           className="rounded-circle overflow-hidden"
-          src="../dist/common/profile.jpeg"
+          src="/profile.jpeg"
         />
       </div>
     </div>

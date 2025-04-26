@@ -1,4 +1,4 @@
-import { text } from "../../public/common/text/aboutMe";
+import { text } from "../common/text/aboutMe";
 
 function AboutMe() {
   const aboutMe = text;

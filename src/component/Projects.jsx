@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IBM } from "../../public/common/text/projects";
+import { IBM } from "../common/text/projects";
 
 function Projects() {
   const projectsPages = [
