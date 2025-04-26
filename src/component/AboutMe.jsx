@@ -14,9 +14,9 @@ function AboutMe() {
             {aboutMe}
           </div>
         </div>
-        <div className="d-flex justify-content-center align-items-center me-5">
+        <div className="d-flex justify-content-center align-items-center">
           <img
-            src="../public/common/knowledge.png"
+            src="/knowledge.png"
             style={{ width: "300px", height: "300px", margin:"20px 0" }}
           />
         </div>

@@ -108,7 +108,7 @@ function App() {
           <button
             type="button"
             className="btn btn-outline-light btn-menu-main"
-            style={{ width: "23%" }}
+            style={{ width: "25%" }}
             onClick={skillsPage}
           >
             Habilidades
