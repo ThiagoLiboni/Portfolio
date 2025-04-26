@@ -9,7 +9,7 @@ function Projects() {
         name: "IBM-insurance",
         text: IBM,
         title: "Individual Broker Management (IBM) - Insurance",
-        link: "github.com/linkDoProjeto",
+        link: "https://github.com/ThiagoLiboni/Portfolio/",
       },
     ],
   ];
