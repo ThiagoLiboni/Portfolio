@@ -10,6 +10,7 @@ function Projects() {
         text: IBM,
         title: "Individual Broker Management (IBM) - Insurance",
         link: "https://github.com/ThiagoLiboni/Portfolio/",
+        http: ""
       },
     ],
     [
@@ -19,6 +20,7 @@ function Projects() {
         text: Modular,
         title: "Modular",
         link: "https://github.com/ThiagoLiboni/ModuLarWeb",
+        http: "https://modularsolution.netlify.app"
       }
     ]
   ];
@@ -53,10 +55,10 @@ function Projects() {
           <div className="description-project pt-2">
             <div className="title-project mb-3">{project.title}</div>
             <div className="text" style={{ whiteSpace: "normal" }}>
-              {project.text}
+              {project.text}{project.http}
             </div>
             <a
-              href="https://github.com/IBM-Insurances"
+              href={project.link}
               target="_blank"
               rel="noopener noreferrer"
             >
