@@ -17,7 +17,7 @@ function Projects() {
   const currentProjects = projectsPages[page];
 
   return (
-    <div className="container w-100 mt-4">
+    <div className="container w-100">
       <div className="title">Projetos</div>
       {currentProjects.map((project) => (
         <div className="content-project d-flex ">
@@ -28,7 +28,7 @@ function Projects() {
             <div className="box-icon-project d-flex justify-content-start pe-4 pb-2">
               <div className="project-name d-flex justify-content-end align-items-center">
                 <div className="box-name-project-squad"></div>
-                <div className="text">{project.name}</div>
+                <div className="text" style={{whiteSpace:"nowrap"}}>{project.name}</div>
               </div>
             </div>
             <div
@@ -53,9 +53,6 @@ function Projects() {
             >
               Ver no GitHub
             </a>{" "}
-          </div>
-        </div>
-      ))}
       <div
         className="handler-pages position-relative w-100 d-flex mt-4 mb-5"
       >
@@ -70,7 +67,7 @@ function Projects() {
         <div
           className="text-light align-self-center"
           style={{ fontSize: "10px" }}
-        >
+          >
           Página {page + 1} de 1
         </div>
         <button
@@ -80,10 +77,13 @@ function Projects() {
           }
           disabled={page === projectsPages.length - 1}
           style={{ scale: "0.65" }}
-        >
+          >
           Próxima &gt;
         </button>
       </div>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

@@ -19,7 +19,7 @@ function handleShowAboutMe() {
     ) :(
     <div
       ref={contentMain}
-      className="container wellcome-content d-flex justify-content-between"
+      className="container wellcome-content d-flex justify-content-between py-4"
       style={{ width: "65%" }}
     >
       <div className="wellcome-info">

@@ -77,7 +77,7 @@ function Ability() {
   const currentSkills = skillsPages[page] || [];
 
   return (
-    <div className="container w-100 mt-4" style={{height:"90vh"}}>
+    <div className="container w-100 mt-4" style={{height:"auto"}}>
       <div className="title">Habilidades</div>
       {currentSkills.map((skill) => (
         <div key={skill.id} className="content-abilities d-flex w-100">
