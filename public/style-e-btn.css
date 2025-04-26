@@ -1,0 +1,79 @@
+.burguer {
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.boxBurguer {
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 20%;
+}
+
+.menu {
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    margin: auto 0;
+
+}
+
+.menu::before,
+.menu::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+
+}
+
+.menu::before {
+    transform: translateY(-8px);
+}
+
+.menu::after {
+    transform: translateY(8px);
+}
+
+.burguer.open .menu {
+    transform: translateX(-20px);
+    background: transparent;
+}
+
+
+.burguer.open .menu::before {
+    transform: rotate(45deg) translate(22px, -22px);
+    background-color: rgba(250, 243, 243, 0.466);
+    height: 2px;
+    width: 23px;
+
+}
+
+.burguer.open .menu::after {
+    transform: rotate(-45deg) translate(22px, 22px);
+    background-color: rgba(250, 243, 243, 0.466);
+    height: 2px;
+    width: 23px;
+}
+
+.roundedX {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(212, 212, 212, 0.062);
+    border-radius: 50%;
+    right: 12.25px;
+    top: 50vh;
+    z-index: 0;
+    display: none;
+
+
+}
