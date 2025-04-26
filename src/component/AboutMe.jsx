@@ -1,4 +1,4 @@
-import { text } from "../common/text/aboutMe";
+import { text } from "../../public/common/text/aboutMe";
 
 function AboutMe() {
   const aboutMe = text;
@@ -16,7 +16,7 @@ function AboutMe() {
         </div>
         <div className="d-flex justify-content-center align-items-center me-5">
           <img
-            src="../src/common/knowledge.png"
+            src="../public/common/knowledge.png"
             style={{ width: "300px", height: "300px", margin:"20px 0" }}
           />
         </div>
